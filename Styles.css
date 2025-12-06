@@ -1,0 +1,89 @@
+body{
+    background-image: url(img/8275340.jpg);
+}
+
+h1 {
+    text-decoration: underline;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+.section-p1{
+    align-items: center;
+    position: relative;
+    background-color: blueviolet;
+    width: 280px;
+    height: 100px;
+    border-radius: 5%;
+    background: transparent;
+}
+
+.section-p1 h4{
+    color: #fff;
+}
+
+.section-m1{
+    border-radius: 5px;
+    background: transparent;
+}
+
+.section-m1 h4{
+    color: #fff;
+}
+
+.button-t1 input{
+    width: 200px;
+    height: 30px;
+    border: 2px;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.section-p1 input{
+    width: 240px;
+    height: 30px;
+    border: 5px;
+    border-radius: 30px;
+    border-style: hidden;
+}
+
+.section-p1 input,
+.section-m1 input {
+    width: 240px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 0 12px;
+    text-align: center;
+    line-height: 30px; 
+    font-size: 14px;
+}
+
+
+.section-p1 input::placeholder,
+.section-m1 input::placeholder {
+    text-align: center;
+}
+
+
+.button-t1 input{
+    background-color: cadetblue;
+    border: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.button-t1 input:active{
+    color: red;
+    text-decoration: underline;
+    transition: 0.2s ease;
+}
+
+h5 a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: space-between;
+}
